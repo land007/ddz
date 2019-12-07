@@ -1,0 +1,4 @@
+{"status":200,"data":[{"requestId":"6","status":200,"action":"/user.reconn"}]}
+{"status":200,"data":[{"requestId":"7","status":200,"action":"/user.enterGame","data":{"gameUrl":"http://ddz.image.h5.game.uc.cn/games/ddz/index.html","gameServerUrl":"ws://ddz.h5.game.uc.cn:8020/game","type":1}}]}
+{"status":200,"data":[{"requestId":"53","status":200,"action":"/user.enterGame","data":{"gameUrl":"http://ddz.image.h5.game.uc.cn/games/ddz/index.html","gameServerUrl":"ws://ddz.h5.game.uc.cn:8020/game","type":1}}]}
+

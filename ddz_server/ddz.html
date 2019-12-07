@@ -1,0 +1,106 @@
+
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="full-screen" content="yes"> 
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta content="email=no" name="format-detection" />
+		<meta content="telephone=no" name="format-detection" />
+		<meta id="screenOri" name="screen-orientation" content="landscape" />
+		<meta http-equiv="pragma" content="no-cache">
+		<meta http-equiv="cache-control" content="no-store, must-revalidate">
+		<meta http-equiv="expires" content="Wed, 26 Feb 1997 08:21:57 GMT">
+        
+		<link rel="icon" href="favicon.ico" type="image/x-icon" />
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+		<link rel="apple-touch-icon" href="touch-icon-iphone.png" />
+		<link rel="apple-touch-icon" sizes="72x72" href="touch-icon-ipad.png" />
+		<link rel="apple-touch-icon" sizes="114x114" href="touch-icon-iphone4.png" />
+		
+		<title>斗地主</title>
+		
+		
+		<style type="text/css">
+            body{
+                padding: 0;
+                margin: 0;
+                background: black;
+                -webkit-touch-callout: none;
+                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+                -webkit-text-size-adjust: none;
+            }
+            
+            
+            #loading {
+                position: absolute;
+                width: 960px;
+                height: 576px;
+                text-align: center;
+                color: #ffffff;
+            }
+
+            #loadingAnimation {
+                position: absolute;
+	        	width: 234px;
+	        	height: 144px;
+	            left: 363px;
+	            top: 259px;
+            }
+
+            #loadingBar {
+                position: absolute;
+                left: 285px;
+                top: 405px;
+                width: 390px;
+                height: 41px;
+            }
+
+            #loadingProgress {
+                color: #fff;
+                font-size: 32px;
+                text-align: center;
+                line-height: 41px;
+                text-shadow: 2px 2px 5px #333;
+            }
+
+            #loadingTip {
+                position: absolute;
+	        	width: 800px;
+                font-size: 24px;
+	            text-align: center;
+	            left: 80px;
+	            top: 450px;
+	            font-weight: bold;
+            }
+
+        </style>
+
+	</head>
+	
+	<body>
+	
+		<div id="root">
+            <div id="loading">
+                <div id="loadingAnimation"></div>
+                <div id="loadingBar"><div id="loadingProgress"></div></div>
+                <div id="loadingMsg"></div>
+                <div id="loadingTip"></div>
+            </div>
+		</div>
+		<SCRIPT type="text/javascript">
+		function setCookie1(c_name,value,expiredays)
+		{
+		var exdate=new Date()
+		exdate.setDate(exdate.getDate()+expiredays)
+		document.cookie=c_name+ "=" +escape(value)+
+		((expiredays==null) ? "" : ";expires="+exdate.toGMTString())
+		}
+		setCookie1('api_hallToken', 'e61dc30a-9e32-4584-9490-b5b3851b69bd', 1000000);
+		</SCRIPT>
+		<script type="text/javascript" src="domLoading.js?v=2.0.0.13061810"></script>
+		<script type="text/javascript" src="index.js?v=2.0.0.13061810"></script>
+	
+	</body>
+
+</html>
